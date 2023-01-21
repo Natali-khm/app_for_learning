@@ -1,20 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FilterMoneyApp from './filterMoney/FilterMoneyApp';
+import InputUniversalApp from './input/UniversalComponents/InputUniversalApp';
+import App from './studentsList/App';
+import InputApp from './input/InputApp';
 
-const root = ReactDOM.createRoot(
+ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
-  <React.StrictMode>
-    <FilterMoneyApp />
-  </React.StrictMode>
+    // <InputUniversalApp/>
+    <App/>
+    // <FilterMoneyApp/> 
+    // <InputApp/>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+ 
+

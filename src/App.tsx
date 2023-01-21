@@ -2,8 +2,13 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
-  return <></>;
+
+ const Page = () => {
+  return <div></div>
 }
 
-export default App;
+
+// Что нужно написать вместо xxx и yyy? 
+// Ответ дайте через пробел, например: blabla onClick(props)
+
+export default Page;

@@ -8,8 +8,8 @@ type InputPropsType = {
 const Input: React.FC<InputPropsType> = (props) => { 
     return (
         <input type="text" 
-        onChange = {(e) => {props.callBack(e)}}
-        value = {props.value}/>
+               onChange = {(e) => {props.callBack(e)}}
+               value = {props.value}/>
 ) 
 }
 
