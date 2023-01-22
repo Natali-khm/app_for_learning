@@ -1,23 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import FilterMoneyApp from './filterMoney/FilterMoneyApp';
-import InputUniversalApp from './input/UniversalComponents/InputUniversalApp';
-import App from './studentsList/App';
-import InputApp from './input/InputApp';
+import App from './dops_for_todoList/1_ref_children/App';
+import { createRoot } from 'react-dom/client';
 
- const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const container  = document.getElementById('root') as HTMLElement
+const root = createRoot(container);
+root.render(<App />);
 
-root.render(
-    // <InputUniversalApp/>
-    <App/>
-    // <FilterMoneyApp/> 
-    // <InputApp/>
-);
-
-reportWebVitals();
- 
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
 
